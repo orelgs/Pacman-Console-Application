@@ -1,7 +1,23 @@
 # Pacman-Console-Application
  This is a Pacman game console application created in C++, during a C++ course in The Academic College of Tel Aviv, Yaffo, 2022.
+ This game allows you to run custom screen files you can create yourself using the file format below.
+ The Steps and Result files are for run testing using command arguments as following: "pacman.exe - load|-save [-silent]"
+ In the -load mode there is NO menu, it will just run the loaded game as is from the Steps file, and compare the results to the Results file!
+  Can run with -silent to avoid printing to screen and just testing by the result file.
+ In the -save mode Steps and Result files are created for each Screen file you play (So you can load them later).
+ 
 
 # File Formats
+ Screen File Format:
+ -'#' - Walls.
+ -'%' - Empty space.
+ -' ' - Empty space to be filled with breadcrumbs.
+ -'&' - Legend location.
+ -'$' - Ghost location (May add 0 - 4 ghosts).
+ -'@' - Pacman location (Must add).
+ 
+ Empty spaces along the walls will be tunnels - must include empty space on the other side of the wall.
+ 
  Steps File Format:
  -Each steps file will start with the line: "Colours +" / "Colours -" - indicating whether or not the game shall run with colours.
  
