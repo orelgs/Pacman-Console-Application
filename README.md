@@ -1,4 +1,4 @@
-# Pacman-Console-Application
+# Pacman Console Application
 This is a Pacman game console application created in C++, during a C++ course in The Academic College of Tel Aviv, Yaffo, 2022.  
 This game allows you to run custom screen files you can create yourself using the file format below.
 
