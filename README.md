@@ -3,7 +3,7 @@ This is a Pacman game console application created in C++, during a C++ course in
 This game allows you to run custom screen files you can create yourself using the file format below.
 
 # Running The Game
-1. Download the zip in the [latest release](https://github.com/orelgs/Pacman-Console-Application/releases/latest).
+1. Download the zip in the [Latest Release](https://github.com/orelgs/Pacman-Console-Application/releases/latest).
 2. Run Pacman.exe by clicking it, or through command line, where you may add command arguments as shown below.
 
 # Command Arguments
